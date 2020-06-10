@@ -1,10 +1,9 @@
 package com.truemlgpro.wifiinfo;
 
-import android.support.v7.app.*;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.*;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.*;
 import android.content.*;
-import android.graphics.*;
 import android.widget.*;
 import me.anwarshahriar.calligrapher.*;
 import android.animation.*;

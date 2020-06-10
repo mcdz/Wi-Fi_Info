@@ -1,12 +1,11 @@
 package com.truemlgpro.wifiinfo;
 
 import android.content.*;
-import android.widget.*;
 import android.net.*;
 import android.app.*;
 import android.os.*;
-import android.support.annotation.*;
-import android.support.v4.app.*;
+
+import androidx.core.app.*;
 
 public class ConnectionStateService extends Service 
 {

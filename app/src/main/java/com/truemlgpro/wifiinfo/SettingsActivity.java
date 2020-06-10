@@ -2,14 +2,17 @@ package com.truemlgpro.wifiinfo;
 
 import android.app.*;
 import android.os.*;
-import android.support.v7.app.*;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
-import android.support.v7.widget.*;
-import android.support.v4.widget.*;
+import androidx.appcompat.app.*;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.Toolbar;
+import androidx.appcompat.widget.*;
+import androidx.core.widget.*;
 import android.widget.*;
 import android.view.*;
 import android.content.*;
+
+import androidx.drawerlayout.widget.DrawerLayout;
+
 import me.anwarshahriar.calligrapher.*;
 
 public class SettingsActivity extends AppCompatActivity

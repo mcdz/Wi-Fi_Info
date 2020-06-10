@@ -2,18 +2,20 @@ package com.truemlgpro.wifiinfo;
 
 import android.app.*;
 import android.os.*;
-import android.support.v7.app.*;
-import android.support.v7.widget.*;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
-import android.support.v4.widget.*;
+import androidx.appcompat.app.*;
+import androidx.appcompat.widget.*;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.widget.*;
 import android.view.*;
 import android.widget.*;
 import me.anwarshahriar.calligrapher.*;
 import br.com.bloder.magic.view.*;
-import android.view.View.*;
+
 import android.content.*;
 import android.content.pm.*;
+
+import androidx.drawerlayout.widget.DrawerLayout;
 
 public class DevInfoActivity extends AppCompatActivity
 {

@@ -5,9 +5,9 @@ import android.os.*;
 import android.content.*;
 import android.net.wifi.*;
 import android.net.*;
-import android.support.annotation.*;
-import android.support.v4.content.*;
-import android.support.v4.app.*;
+
+import androidx.core.content.*;
+import androidx.core.app.*;
 import android.provider.*;
 
 public class NotificationService extends Service

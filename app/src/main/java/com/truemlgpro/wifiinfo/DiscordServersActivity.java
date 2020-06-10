@@ -2,16 +2,18 @@ package com.truemlgpro.wifiinfo;
 
 import android.app.*;
 import android.os.*;
-import android.support.v7.app.*;
-import android.support.v7.widget.*;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.app.*;
+import androidx.appcompat.widget.*;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.Toolbar;
 import me.anwarshahriar.calligrapher.*;
-import android.support.v4.widget.*;
+import androidx.core.widget.*;
 import android.view.*;
 import android.widget.*;
 import android.content.*;
 import android.net.*;
+
+import androidx.drawerlayout.widget.DrawerLayout;
 
 public class DiscordServersActivity extends AppCompatActivity
 {
