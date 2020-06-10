@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
-    buildToolsVersion "29.+"
+    buildToolsVersion "29.0.2"
 
     defaultConfig {
         applicationId "com.truemlgpro.wifiinfo"
@@ -20,14 +20,11 @@ android {
 }
 
 dependencies {
-	compile ('android.arch.core:runtime:+') {
+	implementation 'com.android.support:cardview-v7:28.0.0'
+    compile ('android.arch.core:runtime:1.1.1') {
 		force = true
 	}
 	
-	api 'com.android.support:design:26.+'
-	api 'com.android.support:support-v4:26.+'
-	api 'com.android.support:appcompat-v7:26.+'
-	api 'com.android.support:cardview-v7:26.+'
 	api 'me.anwarshahriar:calligrapher:1.0'
 	api 'com.github.bloder:magic:1.1'
 	api 'com.mikhaellopez:circularimageview:3.2.0'
